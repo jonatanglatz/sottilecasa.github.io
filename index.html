@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<p class="titulo">Relatorios Sottile Casa</p>
+
+	<div class="flex-grid-thirds">
+  <div class="col"> <a href="https://app.powerbi.com/view?r=eyJrIjoiYTIxZDlkZDQtZWU0NS00YTJhLWE2YTYtYThlYzE0NzI0Mzk5IiwidCI6IjQ5ODFmZjczLWZlNmUtNGM2ZC1iZjE3LTA4MWU3NzRiODExZiJ9" target="_self"
+            title="Relatorio de Fretes">Análise de fretes</a></div>
+
+  <div class="col"><a href="https://datastudio.google.com/u/0/reporting/dd69b640-9f4c-4877-ae32-d3d508059f63/page/p_juy4w5kknc" target="_self"
+            title="Data">Relatório Google Analytics</a></div>
+
+  <div class="col"><a href="https://app.powerbi.com/view?r=eyJrIjoiYTIxZDlkZDQtZWU0NS00YTJhLWE2YTYtYThlYzE0NzI0Mzk5IiwidCI6IjQ5ODFmZjczLWZlNmUtNGM2ZC1iZjE3LTA4MWU3NzRiODExZiJ9" target="_self"
+            title="Relatorio de Fretes">Relatorio 001</a></div>
+
+  <div class="col"><a href="https://app.powerbi.com/view?r=eyJrIjoiYTIxZDlkZDQtZWU0NS00YTJhLWE2YTYtYThlYzE0NzI0Mzk5IiwidCI6IjQ5ODFmZjczLWZlNmUtNGM2ZC1iZjE3LTA4MWU3NzRiODExZiJ9" target="_self"
+            title="Relatorio de Fretes">Relatorio 001</a></div>
+
+</div>
+
+
+</body>
+</html>
+<style>
+
+	body {
+    background-color: #00263e  ;
+}
+.titulo {
+    font-size: 36px;
+    background-color:#00263e ;
+    color:  white ;
+    text-align:     center  ;
+    padding-bottom: 3%;
+}
+
+.flex-grid {
+  display: flex;
+}
+.flex-grid .col {
+  flex: 1;
+}
+.flex-grid-thirds {
+  display: flex;
+  max-width: 50%;
+  justify-content: space-between;
+  padding-right: 35px;
+  margin: auto;
+  flex-flow: row wrap;
+}
+.flex-grid-thirds .col {
+  width: 32%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-grid { 
+  margin: 0 0 20px 0;
+}
+.col {
+  background: salmon;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  flex: center;
+  margin-top: 2%;
+}
+.col:hover {
+	background-color: #be2725;
+	cursor: pointer;
+	transition: all ease 0.5s;
+
+
+}
+@media (max-width: 600px){
+    .flex-grid-thirds {
+        max-width: 100% !important;
+        }
+    .col {
+    padding: 5px;    
